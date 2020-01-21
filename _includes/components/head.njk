@@ -2,13 +2,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or renderData.title or metadata.title }}</title>
+  <meta name="description" content="Anna Palfreeman: Singer/songwriter musician in Snohomish, WA">
+  <meta name="keywords" content="Singer,Songwriter,Piano,Keyboard,Vocals,Singer/Songwriter,Music,Musician,Songs">
+  <meta name="author" content="Anna Palfreeman">
+
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Oswald:300,400&display=swap" rel="stylesheet">
+  
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
+ 
   {% set js %}
     {% include "assets/js/inline.js" %}
   {% endset %}
+ 
+  <style>{{ css | cssmin | safe }}</style>
   <script>{{ js | jsmin | safe }}</script>
 </head>

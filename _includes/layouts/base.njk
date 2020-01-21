@@ -1,23 +1,14 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-
 	{% include "components/head.njk" %}
-
-	<body>
-
+	<body {% if page.url === "/" %}class="background"{% endif %}>
 		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
+      <a href="{{ '/' | url }}" class="logo">{{ metadata.title }}</a>
 			{% include "components/nav.njk" %}
 		</header>
-
 		<main>
 			{{ layoutContent | safe }}
 		</main>
-
 		{% include "components/footer.njk" %}
-
 	</body>
-
 </html>
