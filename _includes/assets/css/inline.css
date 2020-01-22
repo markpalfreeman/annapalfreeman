@@ -27,7 +27,7 @@ body {
 }
 
 body.background {
-  background: url(https://i.imgur.com/Vz9BWvV.jpg) no-repeat center center fixed;
+  background: url(/static/img/anna-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
