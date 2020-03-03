@@ -45,10 +45,7 @@ code {
 a[href],
 a[href]:visited {
   color: var(--white);
-}
-
-a[href]:not(:hover) {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 header,
@@ -246,7 +243,8 @@ button {
   cursor: pointer;
 }
 
-.social__link:hover {
+a.social__link,
+a.social__link:hover {
   text-decoration: none;
 }
 
