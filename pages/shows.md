@@ -8,8 +8,7 @@ date: 2020-01-20
 permalink: /shows/index.html
 ---
 
-| Date | Venue                | Location      | Time |
-| ---- | -------------------- | ------------- | ---- |
-| 2.9  | Randolph Cellars     | Snohomish, WA | 1:30 |
-| 3.20 | Uptown Wine & Beer   | Snohomish, WA | 7:00 |
-| 5.1  | Looking Glass Coffee | Snohomish, WA | 7:00 |
+| Date | Venue                                                                        | Location      | Time |
+| ---- | ---------------------------------------------------------------------------- | ------------- | ---- |
+| 3.20 | [Uptown Wine & Beer](https://www.facebook.com/events/243298603325913/)       | Snohomish, WA | 7 PM |
+| 5.1  | [Looking Glass Coffee](<(https://www.facebook.com/events/220283028975898/)>) | Snohomish, WA | 7 PM |
