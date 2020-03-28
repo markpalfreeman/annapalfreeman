@@ -10,5 +10,4 @@ permalink: /shows/index.html
 
 | Date | Venue                                                                        | Location      | Time |
 | ---- | ---------------------------------------------------------------------------- | ------------- | ---- |
-| 3.20 | [Uptown Wine & Beer](https://www.facebook.com/events/243298603325913/)       | Snohomish, WA | 7 PM |
 | 5.1  | [Looking Glass Coffee](<(https://www.facebook.com/events/220283028975898/)>) | Snohomish, WA | 7 PM |
